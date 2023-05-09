@@ -1,7 +1,7 @@
 [
   {
     "name": "${ecs_service_container_name}",
-    "image": "807410046616.dkr.ecr.eu-west-1.amazonaws.com/api:latest",
+    "image": "807410046616.dkr.ecr.eu-west-1.amazonaws.com/api@sha256:f16104b3e032cf2022e3c66bc026bcbdbefd1379d2059e9baa2f9caddd40825f",
     "portMappings": [
       {
         "containerPort": 80,
