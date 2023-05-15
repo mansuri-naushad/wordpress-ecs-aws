@@ -10,20 +10,20 @@
     ],
     "secrets": [{
       "name": "WORDPRESS_DB_PASSWORD",
-      "valueFrom": "arn:aws:secretsmanager:${aws_region}:${aws_account_id}:secret:${secret_name}:WORDPRESS_DB_PASSWORD::"
+      "value": "admin123"
     }],
     "environment": [
       {
         "name": "WORDPRESS_DB_HOST",
-        "value": "${wordpress_db_host}"
+        "value": "database-1.cm1f1la7e4ig.eu-west-1.rds.amazonaws.com"
       },
       {
         "name": "WORDPRESS_DB_USER",
-        "value": "${wordpress_db_user}"
+        "value": "admin"
       },
       {
         "name": "WORDPRESS_DB_NAME",
-        "value": "${wordpress_db_name}"
+        "value": "wp_vaxxa"
       }
     ],
     "logConfiguration": { 
